@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="bg" style="background-image: url({{cover}})"/>
+  <view class="lyrics">
+    <rich-text nodes="{{nodes}}" class=".rich-text"/>
+  </view>
+  <view class="bc-player">
+    <bc-player current="{{audio}}" list="{{list}}" onPlay="playHandle"/>
+  </view>
+</view>

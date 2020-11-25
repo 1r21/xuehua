@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "bc-player": "/components/player/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "anymock-jsbridge": "^2.0.0",
+    "mini-html-parser2": "^0.2.0"
+  }
+}
