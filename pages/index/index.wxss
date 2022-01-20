@@ -1,0 +1,26 @@
+.thumb {
+  padding: 20rpx 40rpx;
+}
+.thumb > .cover {
+  display: block;
+  width: 100%;
+  height: 380rpx;
+  margin-bottom: 18rpx;
+  border-radius: 20rpx;
+  background-color: #ccc;
+}
+.thumb > .title {
+  font-size: 30rpx;
+  font-weight: 400;
+  margin-bottom: 14rpx;
+  display: -webkit-box;
+  box-orient: vertical;
+  line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.thumb > .date {
+  font-size: 26rpx;
+  color: #888;
+}
+

@@ -1,3 +1,9 @@
 {
-  "pages": ["pages/index/index"]
+  "pages": ["pages/index/index", "pages/detail/detail"],
+  "window": {
+    "navigationBarBackgroundColor": "#bf28cc",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "I Believe"
+  },
+  "sitemapLocation": "sitemap.json"
 }

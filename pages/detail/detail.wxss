@@ -1,0 +1,7 @@
+.container {
+  padding: 24rpx;
+}
+.container > .text {
+  font-size: 32rpx;
+  margin: 10rpx 0;
+}

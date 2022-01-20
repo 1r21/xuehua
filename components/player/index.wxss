@@ -1,4 +1,4 @@
-button {
+.btn {
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -49,13 +49,13 @@ button {
   margin: 0 auto;
 }
 
-.controls > button > .iconfont {
+.controls > .btn > .iconfont {
   color: #fff;
   font-size: 50rpx;
 }
 
-.controls > button > .iconfont.i-play,
-.controls > button > .iconfont.i-pause {
+.controls > .btn   > .iconfont.i-play,
+.controls > .btn   > .iconfont.i-pause {
   font-size: 80rpx;
 }
 
@@ -67,7 +67,7 @@ button {
   background-color: #fff;
 }
 
-.list-wrap > button {
+.list-wrap > .btn {
   position: absolute;
   top: 4rpx;
   right: 4rpx;
@@ -76,7 +76,7 @@ button {
   line-height: 40rpx;
 }
 
-.list-wrap > button > .iconfont {
+.list-wrap > .btn > .iconfont {
   color: #333;
   font-size: 30rpx;
 }

@@ -1,0 +1,13 @@
+<template name="textThumb">
+  <view class="thumb" bindtap="goDetail" data-id="{{id}}">
+    <image class="cover" src="{{cover}}" mode="aspectFill"></image>
+    <view class="title">{{title}}</view>
+    <view class="date">{{date}}</view>
+  </view>
+</template>
+
+<view class="container">
+  <block wx:for="{{list}}" wx:key="id">
+    <template is="textThumb" data="{{...item}}"  />
+  </block>
+</view>
