@@ -1,12 +1,11 @@
-import { getTextById } from '../../services/api'
-import { parseText } from '../../utils/index'
+import { getNewsById, parseText } from "@1r21/youyihe";
 Page({
   data: {
     nodes: [],
   },
   async onLoad(option) {
-    const { id = 317 } = option || {};
-    const { transcript, title, date } = await getTextById(id)
+    const { id } = option || {};
+    const { transcript, date } = await getNewsById(id)
     const nodes = parseText(transcript)
     this.setData({
       nodes

@@ -1,14 +1,11 @@
-import { getTexts } from '../../services/api'
+import { getNews } from '@1r21/youyihe'
 
 Page({
   data: {
     list: [],
   },
   async onLoad() {
-    // wx.setNavigationBarTitle({
-    //   title: 'I Believe'
-    // })
-    const { list } = await getTexts()
+    const { list } = await getNews()
     this.setData({ list })
   },
   goDetail(event) {

@@ -1,4 +1,9 @@
+import config from "./config";
+
+const { API_HOST } = config;
+
 App({
+  __API_HOST__: API_HOST,
   onLaunch(options) {
     // 第一次打开
     // options.query == {number:1}

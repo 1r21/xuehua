@@ -1,3 +1,3 @@
 <view class="container">
-  <view wx:for="{{nodes}}" wx:key="idx" style="{{item.style}}" class="text">{{item.value}}</view>
+  <view wx:for="{{nodes}}" wx:key="idx" style="{{item.rawStyle}}" class="text">{{item.value}}</view>
 </view>

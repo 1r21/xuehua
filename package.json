@@ -1,0 +1,22 @@
+{
+  "name": "xuehua",
+  "version": "0.0.1",
+  "description": "A mini program client for taishan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1r21/xuehua.git"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram"
+  ],
+  "author": "iron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1r21/xuehua/issues"
+  },
+  "homepage": "https://github.com/1r21/xuehua#readme",
+  "dependencies": {
+    "@1r21/youyihe": "^0.0.4"
+  }
+}

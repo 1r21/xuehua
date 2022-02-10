@@ -1,7 +1,9 @@
 
 # dependencies
 **/node_modules
+**/miniprogram_npm
 
+# editor
 .idea
 .DS_Store
 .kaitian
@@ -21,6 +23,3 @@ functions/*
 .temp/**
 
 .eslintcache
-
-# env
-*.env.*
