@@ -3,8 +3,20 @@
   "packOptions": {
     "ignore": [
       {
-        "type": "suffix",
-        "value": ".env"
+        "type": "file",
+        "value": "package.json"
+      },
+      {
+        "type": "folder",
+        "value": "miniprogram_npm/@1r21/request"
+      },
+      {
+        "type": "folder",
+        "value": "miniprogram_npm/axios"
+      },
+      {
+        "type": "folder",
+        "value": "miniprogram_npm/follow-redirects"
       }
     ]
   },
@@ -44,6 +56,7 @@
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
     "ignoreUploadUnusedFiles": true
+
   },
   "compileType": "miniprogram",
   "libVersion": "2.21.3",
