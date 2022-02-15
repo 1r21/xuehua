@@ -1,6 +1,7 @@
 {
   "name": "xuehua",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "private": true,
   "description": "A mini program client for taishan",
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/1r21/xuehua#readme",
   "dependencies": {
-    "@1r21/youyihe": "^0.0.4"
+    "@1r21/api-wx": "^0.0.8",
+    "@1r21/util": "^0.0.8"
   }
 }

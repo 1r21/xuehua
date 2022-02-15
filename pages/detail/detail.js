@@ -1,4 +1,6 @@
-import { getNewsById, parseText } from "@1r21/youyihe";
+import { getNewsById } from "@1r21/api-wx";
+import { parseText } from "@1r21/util";
+
 Page({
   data: {
     nodes: [],

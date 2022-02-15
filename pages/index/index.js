@@ -1,4 +1,4 @@
-import { getNews } from '@1r21/youyihe'
+import { getNews } from '@1r21/api-wx'
 
 Page({
   data: {
