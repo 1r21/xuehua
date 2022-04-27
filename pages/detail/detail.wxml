@@ -1,3 +1,19 @@
 <view class="container">
-  <view wx:for="{{nodes}}" wx:key="idx" style="{{item.rawStyle}}" class="text">{{item.value}}</view>
+  <view class="transcript" wx:if="article?.transcript">
+    <block wx:for="{{nodes}}" wx:key="idx">
+      <view class="title" wx:if="{{item.type === 'title'}}">{{ item.value }}</view>
+      <block wx:else>
+        <view class="text-wrap">
+          <text class="text">{{ item.value }}</text>
+          <text class="iconfont i-translater" data-text="{{item}}" bindtap="doTranslate"></text>
+        </view>
+        <view class="text-wrap trans" v-show="item.trans">{{ item.trans }}</view>
+      </block>
+    </block>
+  </view>
+  <view class="action" style="background-image:url({{cover}})">
+    <text class="iconfont i-play" wx:if="{{paused}}" bindtap="play"></text>
+    <text class="iconfont i-pause" wx:else bindtap="pause"></text>
+    <text class="iconfont i-home" bindtap="goBack"></text>
+  </view>
 </view>

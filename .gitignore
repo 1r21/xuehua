@@ -21,3 +21,5 @@ functions/*
 .temp/**
 
 .eslintcache
+
+project.private.config.json
