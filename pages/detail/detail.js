@@ -48,6 +48,7 @@ Page({
     this.innerAudioContext.pause();
   },
   goBack() {
+    this.innerAudioContext.stop()
     wx.navigateTo({
       url: `/pages/index/index`,
     });
